@@ -9,11 +9,11 @@ shutterIsland = movieproject.Movie("Shutter Island", "Suspense", "https://upload
 clueless = movieproject.Movie("Clueless", "Comedy", "https://upload.wikimedia.org/wikipedia/en/2/21/Clueless.jpg", "https://www.youtube.com/watch?v=bq1KKG-dh1M")
 
 movies = [toyStory, avatar, theNotebook, theConjuring, shutterIsland, clueless]
-fresh_tomatoes.open_movies_page(movies)
+print(movieproject.Movie.__doc__)
 
+#print(movieproject.Movie.VALID_RATINGS)
 
-
-
+#fresh_tomatoes.open_movies_page(movies)
 
 ##toyStory.showTitle()
 ##toyStory.showGenre()

@@ -1,6 +1,9 @@
 import webbrowser
 
 class Movie():
+    """This class provides information about movies."""
+    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
+    
     def __init__(self, title, genre, posterImage, trailer):
         self.title = title
         self.genre = genre
